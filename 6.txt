@@ -1,0 +1,29 @@
+CREATE TABLE citis(
+    id INT NULL AUTO_INCREMENT KEY,
+    name VARCHAR (50) NOT NULL
+);
+
+CREATE TABLE biodata (
+  id_biodata int NOT NULL AUTO_INCREMENT KEY,
+  full_name varchar(111) NOT NULL,
+  date_of_birth date NOT NULL,
+  place_of_birtd_id int NOT NULL,
+  phone_number int NOT NULL,
+  addres varchar(111) NOT NULL,
+  last_education enum('sma','s1') NOT NULL,
+  religion enum('islam','kristen','katolik') NOT NULL,
+  hobby varchar(200) NOT NULL
+);
+
+INSERT INTO `cities` (`id`, `name`) VALUES (NULL, 'jakarta'), (NULL, 'bandung');
+INSERT INTO `biodata` (`id_biodata`, `full_name`, `date_of_birth`, `place_of_birth_id`, `phone_number`, `addres`, `last_education`, `religion`, `hobby`) VALUES (NULL, 'tes', '2019-07-03', '1', '3235235', 'ret', 's1', 'islam', 'renang, game'), (NULL, 'yo', '2019-07-16', '2', '345345634', 'fff', 'sma', 'kristen', 'renang, gibah');
+
+SELECT * FROM biodata JOIN cities ON cities.id=biodata.id_biodata ORDER BY id_biodata ASC
+
+DELETE FROM `cities` WHERE id=1
+DELETE FROM `biodata` WHERE id=1
+
+UPDATE `cities` SET `named`='solo' WHERE id=1
+UPDATE `biodata` SET `full_name`='tes',`date_of_birth`='2019-11-09',`place_of_birth_id`='2',`phone_number`='333333',`addres`='jakarta',`last_education`='islam',`religion`='islam',`hobby`='renang' WHERE 1
+
+

@@ -1,0 +1,44 @@
+*{
+    margin:0;
+   }
+   
+   form {
+    padding:80px;
+    width:100%;
+    max-width:400px;
+    background-color:#FFF;
+    border-radius:3px;
+   }
+   
+   .form-group{
+    padding:5px 10px;
+    display:block;
+   }
+
+   .input-mode{
+    border:1px solid silver;
+    border-radius:3px;
+    font-size:15px;
+    height:30px;
+    padding:0 5px;
+    display:block;
+    width:100%;
+   }
+
+   .btn-submit{
+    cursor:pointer;
+    padding: 5px;
+    height: 40px;
+    display: block;
+    background-color: #2c79c0;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #135592;
+    border-radius: 3px;
+   }
+
+   .form-cek label{
+    display:inline-block;
+    padding:1px;
+   }
+   
