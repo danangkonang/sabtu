@@ -1,7 +1,7 @@
 # tes dumways
-aplikasi ada pada folder aplikasi
-yang di buat dg bahasa php saya menggunakan os linux
-untuk menjalankan program ini di perlukan.
+jawaban soal no 7 ada pada folder aplikasi
+yang di buat dg bahasa php, saya menggunakan os linux
+untuk menjalankan program dan membutuhkan beberapa perangkat pendukung sebagai berikut.
 
 ## bahan
 1. browser.
